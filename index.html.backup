@@ -129,7 +129,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Incorporation+Pic+Here');"></div>
                 <div class="carousel-caption">
                     <h2>Ferguson Engineering Incorporates!</h2>
                 </div>
@@ -137,15 +137,15 @@
             <div class="item">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
                 <div class="carousel-caption">
-                    <h2>Our master plan</h2>
+                    <h2>Meet us at EATS</h2>
                 </div>
             </div>
-            <div class="item">
+            <!--div class="item">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
                 <div class="carousel-caption">
                     <h2>Caption 3</h2>
                 </div>
-            </div>
+            </div -->
         </div>
 
         <!-- Controls -->
@@ -173,7 +173,7 @@
                         <h4><i class="fa fa-fw fa-check"></i>Our Mission</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Ferguson Engineering's mission is to serve and make a positive contribution to the pilot training flight simulation industry.</p>
+                        <p>Ferguson Engineering's mission is to serve and make a positive contribution to the pilot training flight simulation industry.</p><br>
                         <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
@@ -210,39 +210,39 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450&text=Simulation Development" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450&text=Acceptance and Qualification Support" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450&text=Software Solutions" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450&text=Engineering Leadership" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450&text=Industry Involvement" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450&text=Product Development" alt="">
                 </a>
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Features Section -->
-        <div class="row">
+        <!--div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Modern Business Features</h2>
             </div>
@@ -262,7 +262,7 @@
             <div class="col-md-6">
                 <img class="img-responsive" src="http://placehold.it/700x450" alt="">
             </div>
-        </div>
+        </div -->
         <!-- /.row -->
 
         <hr>
