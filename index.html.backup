@@ -174,7 +174,7 @@
                     </div>
                     <div class="panel-body">
                         <p>Ferguson Engineering's mission is to serve and make a positive contribution to the pilot training flight simulation industry.</p><br>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="about.html" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="panel-body">
                         <p>We value innovation and analytical decisions aimed at advancing the industry to achieve better more effective pilot training and improved safety in the aviation industry.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="about.html" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@
                     </div>
                     <div class="panel-body">
                         <p>We intend to provide engineering expertise to members of the industry and to foster innovations and invest in products that will drive the industry forward.</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="about.html" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
