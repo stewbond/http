@@ -57,22 +57,22 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-item.html">Simulation</a>
+                                <a href="service-simulation.html">Simulation</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Installations</a>
+                                <a href="service-installation.html">Installations</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Software</a>
+                                <a href="service-software.html">Software</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Leadership</a>
+                                <a href="service-leadership.html">Leadership</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Industry Work</a>
+                                <a href="service-industry.html">Industry Work</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Products</a>
+                                <a href="service-products.html">Products</a>
                             </li>
                         </ul>
                     </li>
@@ -186,39 +186,33 @@
                 <h2 class="page-header">What we do</h2>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="service-simulation.html">
                     <img class="img-responsive img-portfolio img-hover" src="images/sim_dev.jpg" alt="">
-                    <!-- Simulator development -->
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="service-installation.html">
                     <img class="img-responsive img-portfolio img-hover" src="images/instal.jpg" alt="">
-                    <!-- Site installation support, acceptance and qualification support -->
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="service-software.html">
                     <img class="img-responsive img-portfolio img-hover" src="images/software.jpg" alt="">
-                    <!-- Software Solutions -->
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="service-leadership.html">
                     <img class="img-responsive img-portfolio img-hover" src="images/cabin.jpg" alt="">
-                    <!-- Engineering Leadership -->
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="service-industry.html">
                     <img class="img-responsive img-portfolio img-hover" src="images/industry.jpg" alt="">
-                    <!-- Industry Involvement -->
                 </a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
+                <a href="service-products.html">
                     <img class="img-responsive img-portfolio img-hover" src="images/products.jpg" alt="">
-                    <!-- Product Development -->
                 </a>
             </div>
         </div>
