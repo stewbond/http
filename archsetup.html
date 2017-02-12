@@ -221,7 +221,23 @@ systemctl enable dhcpcd@enp11s0.service
    </strong>
   </p>
   <p>
-   Now we will install our video drivers and desktop enviornment.
+   Now we will install our video drivers and desktop enviornment.  If you are prompted which version of the libgl to install, select the plain-old
+   <code>
+    nvidia
+   </code>
+   package. Don’t select
+   <code>
+    mesa
+   </code>
+   ,
+   <code>
+    nvidia-304
+   </code>
+   , or
+   <code>
+    nvidia-340
+   </code>
+   sources.
   </p>
   <pre><code>pacman -S nvidia gnome gnome-extra 
 systemctl enable gdm
@@ -255,6 +271,66 @@ then
     export PATH=$HOME/bin:${PATH}
 fi
 </code></pre>
+  <h2 id="installing-packages">
+   Installing packages
+  </h2>
+  <p>
+   Search
+   <a href="https://www.archlinux.org/packages/">
+    here
+   </a>
+   for packages from the official Arch Linux repositories. To install one of these packages, run this as root:
+  </p>
+  <pre><code>pacman -S &lt;package-name&gt;
+</code></pre>
+  <p>
+   Some packages are assembled by the community and are not officially supported by Arch.  These are found in the arch user repository (AUR).  Search for them
+   <a href="https://aur.archlinux.org/">
+    here
+   </a>
+   .  To install a package from the AUR, you’ll need to check out the repository, compile, it and install it.  To do that, run these commands as a normal user (not root or sudo, though you’ll need sudo permissions).  I like to do this in the
+   <code>
+    ~/src/
+   </code>
+   folder, though
+   <code>
+    /usr/src
+   </code>
+   is also good if you have permissions.
+  </p>
+  <pre><code>git clone https://aur.archlinux.org/&lt;package-name&gt;.git
+cd &lt;package-name&gt;
+makepkg -sri
+</code></pre>
+  <h2 id="syncing-google-drive">
+   Sync’ing Google Drive:
+  </h2>
+  <p>
+   First, install the
+   <a href="https://aur.archlinux.org/packages/grive/">
+    grive
+   </a>
+   package from the AUR. Then, make a folder representing the google drive.  I’ll call it
+   <code>
+    drive
+   </code>
+   in this example. The following commands will perform the initial sync and interactively let you authenticate your google drive account.
+  </p>
+  <pre><code>mkdir ~/drive
+grive -a -p ~/drive
+</code></pre>
+  <p>
+   Then to sync with your drive, just run:
+  </p>
+  <pre><code>cd ~/drive
+grive
+</code></pre>
+  <p>
+   This will upload your local changes to the clound and download remote changes to your local machine.
+   <strong>
+    I don’t know what will happen with conflicting files.
+   </strong>
+  </p>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js">
   </script>
   <script>
