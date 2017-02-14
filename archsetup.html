@@ -167,6 +167,12 @@ vi /etc/hosts
   <pre><code>systemctl enable dhcpcd@enp11s0.service
 </code></pre>
   <p>
+   Next, we’ll get the time service running so that your machine updates automatically:
+  </p>
+  <pre><code>pacman -S ntp
+systemctl enable ntpd.service
+</code></pre>
+  <p>
    You’ll need to set the root password before we reboot.  That’s done with this command:
   </p>
   <pre><code>passwd
@@ -271,9 +277,9 @@ then
     export PATH=$HOME/bin:${PATH}
 fi
 </code></pre>
-  <h2 id="installing-packages">
+  <h3 id="installing-packages">
    Installing packages
-  </h2>
+  </h3>
   <p>
    Search
    <a href="https://www.archlinux.org/packages/">
@@ -302,9 +308,9 @@ fi
 cd &lt;package-name&gt;
 makepkg -sri
 </code></pre>
-  <h2 id="syncing-google-drive">
+  <h3 id="syncing-google-drive">
    Sync’ing Google Drive:
-  </h2>
+  </h3>
   <p>
    First, install the
    <a href="https://aur.archlinux.org/packages/grive/">
@@ -331,6 +337,14 @@ grive
     I don’t know what will happen with conflicting files.
    </strong>
   </p>
+  <h3 id="recommended-packages">
+   Recommended Packages
+  </h3>
+  <p>
+   Here are some additional packages I recommend in order to work with our content.  From core repositories:
+  </p>
+  <pre><code>pacman -S firefox vim qtcreator cmake openssh git xelatex doxygen meld texlive-core thunderbird libreoffice-fresh-en-GB
+</code></pre>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js">
   </script>
   <script>
