@@ -3,7 +3,7 @@
  <head>
   <meta charset="utf-8"/>
   <title>
-   Made with Remarkable!
+   Arch Setup
   </title>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" rel="stylesheet"/>
   <style type="text/css">
@@ -53,7 +53,7 @@
 (parted) mklabel msdos
 (parted) mkpart primary ext3 1MiB 228.9GiB
 (parted) set 1 boot on
-(parted) mkpart primary linux-swap 246GiB 100%
+(parted) mkpart primary linux-swap 228.9GiB 100%
 (parted) quit
 
 parted /dev/sdb
@@ -173,7 +173,7 @@ vi /etc/hosts
 systemctl enable ntpd.service
 </code></pre>
   <p>
-   You’ll need to set the root password before we reboot.  That’s done with this command:
+   You’ll need to set the root password.  That’s done with this command:
   </p>
   <pre><code>passwd
 </code></pre>
@@ -209,23 +209,11 @@ passwd stew
 visudo
 </code></pre>
   <p>
-   <strong>
-    <em>
-     Skip this next step. If you can pacman without it then delete it from these instructions.
-    </em>
-   </strong>
    Next restart the networking services.
   </p>
   <pre><code>systemctl restart dhcpcd.service
 systemctl enable dhcpcd@enp11s0.service
 </code></pre>
-  <p>
-   <strong>
-    <em>
-     End of Skipping
-    </em>
-   </strong>
-  </p>
   <p>
    Now we will install our video drivers and desktop enviornment.  If you are prompted which version of the libgl to install, select the plain-old
    <code>
@@ -245,7 +233,7 @@ systemctl enable dhcpcd@enp11s0.service
    </code>
    sources.
   </p>
-  <pre><code>pacman -S nvidia gnome gnome-extra 
+  <pre><code>pacman -S nvidia nvidia-settings gnome gnome-extra 
 systemctl enable gdm
 </code></pre>
   <h2 id="tips-and-tricks">
@@ -343,7 +331,7 @@ grive
   <p>
    Here are some additional packages I recommend in order to work with our content.  From core repositories:
   </p>
-  <pre><code>pacman -S firefox vim qtcreator cmake openssh git xelatex doxygen meld texlive-core thunderbird libreoffice-fresh-en-GB
+  <pre><code>pacman -S firefox vim qtcreator cmake openssh git doxygen meld texlive-core thunderbird libreoffice-fresh-en-GB
 </code></pre>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js">
   </script>
