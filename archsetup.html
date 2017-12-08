@@ -236,6 +236,14 @@ systemctl enable dhcpcd@enp11s0.service
   <pre><code>pacman -S nvidia nvidia-settings gnome gnome-extra 
 systemctl enable gdm
 </code></pre>
+<h2 id="printer">
+	Printer setup:
+</h2>
+<p>I have an all-in-one HP printer/scanner.  To install this, install <code>cups</code> and the HP drivers, start the cups server, and then run the graphical hp-setup utility.  To run the scan utility, just run <code>xsane</code>.</p>
+<pre><code>pacman -S hplip cups xsane
+systemctl enable org.cups.cupsd.service
+systemctl start org.cups.cupsd.service
+hp-setup</code></pre>
   <h2 id="tips-and-tricks">
    Tips and tricks:
   </h2>
